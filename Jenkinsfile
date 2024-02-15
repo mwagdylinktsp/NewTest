@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('SCM') {
       steps {
-        git credentialsId: 'Word-ssh', url: 'git@github.com:360CXservices/CICDTest.git'
-        echo 'buildtest done'
+        echo 'bBuild Completed'
       }
     }
 
